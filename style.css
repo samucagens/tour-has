@@ -1,0 +1,26 @@
+body { margin: 0; font-family: sans-serif; }
+#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background: #f4f4f4;
+  overflow-y: auto;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+}
+#viewer {
+  margin-left: 250px;
+  height: 100vh;
+  background: #000;
+}
+.andar h3 { margin: 5px 0; }
+.sala {
+  margin-left: 10px;
+  cursor: pointer;
+  color: #0077cc;
+}
+.sala:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Mapa Virtual do Hospital</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="menu">
+    <h2>Mapa do Hospital</h2>
+    <div class="andar" id="andar-1">
+      <h3>1º Andar</h3>
+      <div class="sala" onclick="carregarSala('andar1_sala1')">Sala 1</div>
+    </div>
+  </div>
+  <div id="viewer"></div>
+  <script src="marzipano.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

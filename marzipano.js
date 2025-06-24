@@ -1,0 +1,1 @@
+// Baixe o marzipano.js oficial em https://www.marzipano.net/
